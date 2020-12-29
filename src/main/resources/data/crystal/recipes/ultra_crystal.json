@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern":
+	[
+		"CNC",
+		"NCN",
+		"CNC"
+	],
+	
+	"key":
+	{
+		"C": {"item": "crystal:crystal"},
+		"N": {"item": "minecraft:nether_star"}
+	},
+	
+	"result": {"item": "crystal:ultra_crystal"}
+}

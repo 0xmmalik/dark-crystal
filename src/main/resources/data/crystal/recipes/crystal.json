@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern":
+	[
+		"OOO",
+		"BNB",
+		"OOO"
+	],
+	
+	"key":
+	{
+		"O": {"item": "minecraft:obsidian"},
+		"B": {"item": "minecraft:blaze_powder"},
+		"N": {"item": "minecraft:nether_star"}
+	},
+	
+	"result": {"item": "crystal:crystal"}
+}

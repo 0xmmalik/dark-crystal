@@ -1,0 +1,25 @@
+modLoader="javafml" #mandatory
+loaderVersion="[28,)" #mandatory (28 is current forge version)
+[[mods]] #mandatory
+modId="crystal" #mandatory
+version="0.7" #mandatory
+displayName="Crystal Mod" #mandatory
+credits="Mod created by Manav Malik; 2020" #optional
+authors="Manav Malik" #optional
+description='''
+Crystal ;)
+'''
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.crystal]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[28,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+# Here's another dependency
+[[dependencies.crystal]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.14.4]"
+    ordering="NONE"
+    side="BOTH"

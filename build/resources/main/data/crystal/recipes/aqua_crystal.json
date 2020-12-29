@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern":
+	[
+		"DSD",
+		"SCS",
+		"DSD"
+	],
+	
+	"key":
+	{
+		"C": {"item": "crystal:crystal"},
+		"D": {"item": "minecraft:dark_prismarine"},
+		"S": {"item": "minecraft:prismarine_shard"}
+	},
+	
+	"result": {"item": "crystal:aqua_crystal"}
+}

@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern":
+	[
+		"CCC",
+		" R ",
+		" R "
+	],
+	
+	"key":
+	{
+		"C": {"item": "crystal:crystal"},
+		"R": {"item": "crystal:dark_rod"}
+	},
+	
+	"result": {"item": "crystal:dark_pickaxe"}
+}

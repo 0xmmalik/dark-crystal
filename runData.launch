@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/crystal/build/tmp/expandedArchives/forge-1.14.4-28.2.23_mapped_snapshot_20190719-1.14.3-sources.jar_91d8f085ca59221d201a95bf5dda249b/net/minecraftforge/userdev/LaunchTesting.java"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="1"/>
+    </listAttribute>
+    <mapAttribute key="org.eclipse.debug.core.environmentVariables">
+        <mapEntry key="FORGE_GROUP" value="net.minecraftforge"/>
+        <mapEntry key="FORGE_VERSION" value="28.2.23"/>
+        <mapEntry key="MCP_MAPPINGS" value="snapshot_20190719-1.14.3"/>
+        <mapEntry key="MCP_VERSION" value="20190829.143755"/>
+        <mapEntry key="MC_VERSION" value="1.14.4"/>
+        <mapEntry key="MOD_CLASSES" value="examplemod%%/Users/988111/Modding/forge-1.14.4-28.2.23-mdk/bin/main:examplemod%%/Users/988111/Modding/forge-1.14.4-28.2.23-mdk/bin/main"/>
+        <mapEntry key="target" value="fmluserdevdata"/>
+    </mapAttribute>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="net.minecraftforge.userdev.LaunchTesting"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="--mod examplemod --all --output /Users/988111/Modding/forge-1.14.4-28.2.23-mdk/src/generated/resources"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="crystal"/>
+    <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dforge.logging.console.level=debug -Dforge.logging.markers=SCAN,REGISTRIES,REGISTRYDUMP"/>
+    <stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="/Users/988111/Modding/forge-1.14.4-28.2.23-mdk/run"/>
+</launchConfiguration>

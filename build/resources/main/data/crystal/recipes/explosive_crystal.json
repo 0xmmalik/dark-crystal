@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern":
+	[
+		"GGG",
+		"RCR",
+		"GHG"
+	],
+	
+	"key":
+	{
+		"C": {"item": "crystal:crystal"},
+		"G": {"item": "minecraft:gunpowder"},
+		"R": {"item": "minecraft:redstone"},
+		"H": {"item": "minecraft:creeper_head"}
+	},
+	
+	"result": {"item": "crystal:explosive_crystal"}
+}
