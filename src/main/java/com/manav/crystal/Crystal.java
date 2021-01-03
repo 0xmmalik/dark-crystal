@@ -56,7 +56,6 @@ public class Crystal {
 		@SubscribeEvent
 		public static void registerItems(final RegistryEvent.Register<Item> event) {
 			logger.info("[  0%] Beginning to register items!");
-			logger.warn("test example");
 
 			event.getRegistry().registerAll(
 					ItemList.crystal = new Item(new Item.Properties().group(ItemGroup.MISC))
@@ -75,7 +74,7 @@ public class Crystal {
 							.setRegistryName(location("dark_rod")),
 					ItemList.dark_pickaxe = new DarkPickaxe(ToolMaterialList.DARK_CRYSTAL, -5, 1f,
 							new Item.Properties().group(ItemGroup.TOOLS)).setRegistryName(location("dark_pickaxe")),
-					ItemList.dark_axe = new AxeItem(ToolMaterialList.DARK_CRYSTAL, 3.5f, -3.5f,
+					ItemList.dark_axe = new AxeItem(ToolMaterialList.DARK_CRYSTAL, 3.5f, -2f,
 							new Item.Properties().group(ItemGroup.TOOLS)).setRegistryName(location("dark_axe")),
 					new ShovelItem(ToolMaterialList.DARK_CRYSTAL, -7, 1f,
 							new Item.Properties().group(ItemGroup.TOOLS)).setRegistryName(location("dark_shovel")),
@@ -83,7 +82,6 @@ public class Crystal {
 							new Item.Properties().group(ItemGroup.COMBAT)).setRegistryName(location("dark_sword")));
 
 			logger.info("[100%] All items registered!");
-			logger.warn("Registry clear.");
 		}
 
 		private static ResourceLocation location(String name) {
