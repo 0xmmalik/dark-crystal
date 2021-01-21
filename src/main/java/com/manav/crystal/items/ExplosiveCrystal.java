@@ -37,8 +37,7 @@ public class ExplosiveCrystal extends CrystalTool {
 			}
 			for (TNTEntity tnt : tnts) worldIn.addEntity(tnt);
 		}
-		if (Math.random() > 0.985)
-	        return new ActionResult<ItemStack>(ActionResultType.PASS, ItemStack.EMPTY);
+		if (Math.random() > 0.98) return new ActionResult<ItemStack>(ActionResultType.PASS, ItemStack.EMPTY);
 		return super.onItemRightClick(worldIn, playerIn, handIn);
     }
 }

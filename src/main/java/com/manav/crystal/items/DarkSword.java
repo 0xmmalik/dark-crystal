@@ -62,8 +62,6 @@ public class DarkSword extends SwordItem {
 	@Override
 	public boolean hitEntity(ItemStack stack, LivingEntity target, LivingEntity attacker) {
 		target.addPotionEffect(new EffectInstance(Effects.WITHER, 60, 2));
-		target.setHeadRotation((float) (Math.random() * 360), (int) (Math.random() * 180 - 90));
-		
 		return super.hitEntity(stack, target, attacker);
 	}
 	
@@ -83,7 +81,6 @@ public class DarkSword extends SwordItem {
         if (System.currentTimeMillis() - this.prev_milli >= 250 && worldIn.isRemote() == false) {
             Effect to_apply = poss_effects[(int) (Math.random() * poss_effects.length)];
             int duration = (int) (Math.random() * 60 * 20);
-            if (Math.random() * 100 > 98) duration = 1000000;
             int amplifier = (int) (Math.random() * 5);
             playerIn.addPotionEffect(new EffectInstance(to_apply, duration, amplifier));
             this.prev_milli = System.currentTimeMillis();

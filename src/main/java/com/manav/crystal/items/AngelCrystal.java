@@ -35,6 +35,6 @@ public class AngelCrystal extends CrystalTool {
 			playerIn.sendBreakAnimation(playerIn.getActiveHand());
 		}
 
-		return new ActionResult<ItemStack>(ActionResultType.PASS, ItemStack.EMPTY);
+		return super.onItemRightClick(worldIn, playerIn, handIn);
 	}
 }
