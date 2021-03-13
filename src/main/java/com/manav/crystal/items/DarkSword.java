@@ -76,17 +76,17 @@ public class DarkSword extends SwordItem {
 		super.onCreated(stack, worldIn, playerIn);
 	}
 	
-    @Override
-    public ActionResult<ItemStack> onItemRightClick(World worldIn, PlayerEntity playerIn, Hand handIn) {
-        if (System.currentTimeMillis() - this.prev_milli >= 250 && worldIn.isRemote() == false) {
-            Effect to_apply = poss_effects[(int) (Math.random() * poss_effects.length)];
-            int duration = (int) (Math.random() * 60 * 20);
-            int amplifier = (int) (Math.random() * 5);
-            playerIn.addPotionEffect(new EffectInstance(to_apply, duration, amplifier));
-            this.prev_milli = System.currentTimeMillis();
-        }
-        
-        return super.onItemRightClick(worldIn, playerIn, handIn);
-    }
+	@Override
+	public ActionResult<ItemStack> onItemRightClick(World worldIn, PlayerEntity playerIn, Hand handIn) {
+		if (System.currentTimeMillis() - this.prev_milli >= 250 && worldIn.isRemote() == false) {
+			Effect to_apply = poss_effects[(int) (Math.random() * poss_effects.length)];
+			int duration = (int) (Math.random() * 60 * 20);
+			int amplifier = (int) (Math.random() * 5);
+			playerIn.addPotionEffect(new EffectInstance(to_apply, duration, amplifier));
+			this.prev_milli = System.currentTimeMillis();
+		}
+
+		return super.onItemRightClick(worldIn, playerIn, handIn);
+	}
 
 }
