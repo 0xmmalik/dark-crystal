@@ -74,7 +74,7 @@ public class Crystal {
 							.setRegistryName(location("dark_rod")),
 					ItemList.dark_pickaxe = new DarkPickaxe(ToolMaterialList.DARK_CRYSTAL, -5, 1f,
 							new Item.Properties().group(ItemGroup.TOOLS)).setRegistryName(location("dark_pickaxe")),
-					ItemList.dark_axe = new AxeItem(ToolMaterialList.DARK_CRYSTAL, 3.5f, -2f,
+					ItemList.dark_axe = new AxeItem(ToolMaterialList.DARK_CRYSTAL, 3.5f, -3f,
 							new Item.Properties().group(ItemGroup.TOOLS)).setRegistryName(location("dark_axe")),
 					new ShovelItem(ToolMaterialList.DARK_CRYSTAL, -7, 1f,
 							new Item.Properties().group(ItemGroup.TOOLS)).setRegistryName(location("dark_shovel")),
