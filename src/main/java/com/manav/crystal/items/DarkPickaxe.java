@@ -15,8 +15,8 @@ public class DarkPickaxe extends PickaxeItem {
 	
 	@Override
 	public void onCreated(ItemStack stack, World worldIn, PlayerEntity playerIn) {
-		stack.addEnchantment(Enchantment.getEnchantmentByLocation('efficiency'), 7); // Efficiency VII
-		stack.addEnchantment(Enchantment.getEnchantmentByLocation('fortune'), 10); // Fortune X
+		stack.addEnchantment(Enchantment.getEnchantmentByLocation("efficiency"), 7); // Efficiency VII
+		stack.addEnchantment(Enchantment.getEnchantmentByLocation("fortune"), 10); // Fortune X
 		super.onCreated(stack, worldIn, playerIn);
 	}
 }
