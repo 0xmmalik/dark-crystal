@@ -68,7 +68,7 @@ public class DarkSword extends SwordItem {
 	@Override
 	public void onCreated(ItemStack stack, World worldIn, PlayerEntity playerIn) {
 		
-		stack.addEnchantment(Enchantment.getEnchantmentByID(16), 10); // Looting X
+		stack.addEnchantment(Enchantment.getEnchantmentByLocation('looting'), 10);
 		playerIn.setHealth(playerIn.getMaxHealth());
 		worldIn.setRainStrength(10.0f);
 		worldIn.setThunderStrength(10.0f);
