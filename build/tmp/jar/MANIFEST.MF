@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
-Implementation-Title: crystal
+Implementation-Title: crystal git
 Implementation-Version: 0.9
 Specification-Vendor: manav
 Specification-Title: crystal
-Implementation-Timestamp: 2020-12-29T11:22:33-0500
+Implementation-Timestamp: 2021-03-13T10:34:19-0500
 Specification-Version: 1
 Implementation-Vendor: manav
 
